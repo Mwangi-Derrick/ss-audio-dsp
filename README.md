@@ -65,7 +65,7 @@ This table is the heart of the project. Each row links a lecture topic to the co
 ### Build and run
 
 ```bash
-git clone https://github.com/<your-username>/ss-audio-dsp.git
+git clone https://github.com/Mwangi-Derrick/ss-audio-dsp.git
 cd ss-audio-dsp
 cargo build --release
 cargo run --release -- sample --analog-freq 2 --sample-rate 10
