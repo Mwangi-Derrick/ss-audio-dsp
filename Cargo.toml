@@ -3,4 +3,12 @@ name = "ss-audio-dsp"
 version = "0.1.0"
 edition = "2024"
 
+
 [dependencies]
+clap = { version = "4.4", features = ["derive"] }
+hound = "3.5"          # For reading/writing WAV files later
+rustfft = "6.1.0"      # (Optional) For fast FFT later
+
+[[bin]]
+name = "ss-audio-dsp"
+path = "src/main.rs"
